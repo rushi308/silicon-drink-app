@@ -81,7 +81,7 @@ export class EventListComponent extends Component<Props, EventListState>  {
                 <div className="container">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
                         {
-                            eventList?.length > 0 ? eventList.map((event: Event, index) => {
+                            eventList?.length > 0 ? eventList.map((event: Event) => {
                                 return (<div className="col ">
                                     <div className="card card-border-top shadow-sm bg-theme">
                                         <div className="card-body">

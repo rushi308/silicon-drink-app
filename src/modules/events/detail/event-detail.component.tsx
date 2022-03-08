@@ -61,7 +61,7 @@ export class EventDetailComponent extends Component<Props, EventDetailState>  {
                 </section>
                 <div className="container ">
                     <div className="row">
-                        <div className="col-md-7">
+                        <div className="col-md-7 mt-2">
                             <div className="card">
                                 <div className="card-header">
                                     <label className="card-title-header">Comments</label>
@@ -107,7 +107,7 @@ export class EventDetailComponent extends Component<Props, EventDetailState>  {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mt-2">
                             <div className="card">
                                 <div className="card-header">
                                     <label className="card-title-header">Event Details</label>
@@ -152,7 +152,7 @@ export class EventDetailComponent extends Component<Props, EventDetailState>  {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 mt-2">
                             <div className="card">
                                 <div className="card-header">
                                     <label className="card-title-header">Event Guests</label>
