@@ -1,4 +1,4 @@
-# Getting Started with Drinls React App
+# Getting Started with Drinks React App
 
 ## Available Scripts
 
