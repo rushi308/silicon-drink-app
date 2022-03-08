@@ -1,0 +1,60 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.bg-theme{
+  background-color: #dbb561 !important;
+}
+.font-primary-color{
+  color: #4c3800 !important;
+}
+.btn-theme-primary{
+  background-color: #4c3800 !important;
+  color: #fff !important;
+}
+.fw-300{
+  font-weight: 300;
+}
+.search-input{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    border: 4px solid #4c3800;
+    color: #111;
+    font-size: 15px;
+    box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px #4c3800(0, 0, 0, 0.62);
+    height: 58px;    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.bg-detail-page{
+  background-color: #e5cb90;
+}
+.card-title-header{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.event-detail-icon{
+  font-size: 30px;
+}
+.event-detail-label{
+  font-size: 12px;
+}
+.comment-text{
+  background-color: #5dab7c;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline;
+}
+.card-border-top{
+  border-top: 6px solid #4c3800 !important;
+}
